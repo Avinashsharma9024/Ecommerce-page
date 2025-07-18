@@ -1,0 +1,102 @@
+#navbar{
+    background-color:color(srgb red green blue);
+}
+
+.slids{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-inner,
+.carousel-item,
+.carousel-img{
+  height: 100vh;
+}
+
+#card{
+  cursor: pointer;
+}
+
+
+
+
+.custom-card {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.9;
+}
+.custom-card{
+  opacity: 0.5;
+
+}
+.custom-card:hover{
+  opacity: 1.0;
+
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+  opacity: 1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+    .circle-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+    }
+    .custom-circle-img {
+        transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.9;
+    }
+    .custom-circle-img {
+  transform: scale(1.05);
+  opacity: 1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.circle-img {
+  opacity: 0.3;
+}
+
+.circle-img:hover {
+  opacity: 1.0;
+}
+.circle-img{
+  cursor: pointer;
+
+}
+
+table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+
+    th {
+      background-color: #002244; /* US Polo brand navy blue */
+      color: white;
+      padding: 10px;
+      text-align: left;
+    }
+
+    td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2; /* Light gray for even rows */
+    }
+
+    tr:nth-child(odd) {
+      background-color: #ffffff; /* White for odd rows */
+    }
+    
+#fwt{
+   background-image: linear-gradient(to right, rgb(97, 92, 92), rgb(239, 213, 163), rgb(78, 78, 45), rgb(60, 94, 60), rgb(43, 43, 111), rgb(60, 23, 87), rgb(219, 141, 219));
+
+}
+    
+
+    
